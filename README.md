@@ -2,7 +2,7 @@
 
 [samuelmarina/is-even](https://github.com/samuelmarina/is-even) Compatibility Code for Golang.
 
-Support Range: 0 - 2,000
+Support Range: 0 - 9,999
 
 # About
 I thought the is-even library was so great that I tried to port it to the Go language. However, I have only one complaint about this code. it is very hard to write the code by hand. Therefore, I decided that a great solution would be to generate the code automatically!
@@ -82,7 +82,7 @@ go run main.go iseven.go 1
 >false
 go run main.go iseven.go 2
 >true
-go run main.go iseven.go 2002
+go run main.go iseven.go 10000
 >false
 ```
 
